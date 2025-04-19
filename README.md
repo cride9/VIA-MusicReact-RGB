@@ -48,10 +48,10 @@ python music_reactive_keyboard.py --sensitivity 3.0 --min-brightness 0.2 --max-b
 ## How It Works
 1. The program captures your system's audio output using Windows WASAPI loopback
 2. It analyzes the audio in real-time to detect bass frequencies (20-250 Hz)
-3. The bass level is used to control the LED brightness of your Keychron V2 keyboard
+3. The bass level is used to control the LED brightness of your QMK keyboard
 4. Smoothing is applied to prevent flickering and create a more pleasing visual effect
 
 ## Notes
 - The program requires administrator privileges to access the keyboard's HID interface
 - Some antivirus software may block HID access; you may need to add an exception
-- The program has been tested with Keychron V2 keyboards running QMK firmware
+- The program has been tested with QMK keyboards running QMK firmware
