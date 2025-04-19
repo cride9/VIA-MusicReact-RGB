@@ -64,7 +64,7 @@ echo 1. Enable "Stereo Mix" in your Windows sound settings
 echo 2. Connect your QMK keyboard
 echo.
 
-python fixed_music_reactive_keyboard_gui.py
+python music_reactive_keyboard.py
 
 if %errorlevel% neq 0 (
     echo.
